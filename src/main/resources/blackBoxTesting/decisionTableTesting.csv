@@ -1,0 +1,10 @@
+testID,entryTestRes,gpa,ExpectedOutput
+1,abc,1.1,invalid input
+2.1,pass,-1.0,invalid input
+2.2,fail,5.5,invalid input
+3,pass,2.0,reject
+4,pass,3.2,phase 1
+5,pass,3.7,phase 2
+6,fail,2.5,reject
+7,fail,3.3,reject
+8,fail,3.6,phase 1
