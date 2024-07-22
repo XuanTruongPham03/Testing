@@ -23,4 +23,13 @@ public class CVScreenTesting {
     public void testDecisionTableTesting(double testId, String entryTestRes, double gpa, String expected) {
         assertEquals(expected, CVScreening.screenCV(gpa, entryTestRes));
     }
+
+    /*
+     * Testcase kiểm thử dòng điều khiển
+     */
+    @ParameterizedTest
+    @CsvFileSource(resources = "/CFGTesting/CFGTesting.csv", numLinesToSkip = 1)
+    public void testCFGTesting(double testId, String entryTestRes, double gpa, String expected) {
+        assertEquals(expected, CVScreening.screenCV(gpa, entryTestRes));
+    }
 }
