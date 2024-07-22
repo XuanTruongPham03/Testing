@@ -1,8 +1,6 @@
 # CV Screening Program
 > Luyện tập Kiểm thử và Đảm bảo chất lượng phần mềm
 
-# CV Screening Program
-
 ## Mô tả
 
 Chương trình “Lọc CV” được thiết kế để quyết định xem ứng viên là sinh viên mới ra trường có đủ điều kiện tham gia vào các vòng tiếp theo của quy trình tuyển dụng hay không. Quyết định được đưa ra dựa trên điểm GPA của ứng viên và kết quả bài kiểm tra đầu vào của công ty.
