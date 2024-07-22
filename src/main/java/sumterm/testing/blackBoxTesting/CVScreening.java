@@ -34,9 +34,7 @@ public class CVScreening {
             } else  {
                 return "phase 1";
             }
-        }
-
-        if (gpa >= 3.5) {
+        } else {
             if (entryTestRes.equals("fail")) {
                 return "phase 1";
             } else {
@@ -44,7 +42,7 @@ public class CVScreening {
             }
         }
 
-        return "invalid input";
+        //return "invalid input";
     }
 
     public static void main(String[] args) {
