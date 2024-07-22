@@ -1,4 +1,4 @@
-package sumterm.testing.blackBoxTesting;
+package sumterm.testing.ScreenCV;
 
 public class CVScreening {
     /*

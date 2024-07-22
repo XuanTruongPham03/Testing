@@ -1,7 +1,7 @@
-import sumterm.testing.blackBoxTesting.CVScreening;
-
 import org.junit.jupiter.params.*;
 import org.junit.jupiter.params.provider.CsvFileSource;
+
+import sumterm.testing.ScreenCV.CVScreening;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
