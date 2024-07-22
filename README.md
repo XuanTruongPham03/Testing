@@ -59,5 +59,5 @@ Dựa trên giá trị của GPA và kết quả bài kiểm tra đầu vào, ch
         └── CVScreenTesting.java
 ```
 
-- Các `Testcases` được lấy từ các tệp `.csv` trong folder `./src/resources/` 
-- Tệp [CVScreenTesting.java](./src/test/java/CVScreenTesting.java) là nơi thực hiện các ca kiểm thử
+- Các Ca kiểm thử được lấy từ các tệp `.csv` trong folder [`./src/resources/`](./src/main/resources/)
+- Tệp [`CVScreenTesting.java`](./src/test/java/CVScreenTesting.java) là nơi thực hiện các ca kiểm thử
