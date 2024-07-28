@@ -28,8 +28,17 @@ public class CVScreenTesting {
      * Testcase kiểm thử dòng điều khiển
      */
     @ParameterizedTest
-    @CsvFileSource(resources = "/CFGTesting/CFGTesting.csv", numLinesToSkip = 1)
+    @CsvFileSource(resources = "/controlFlowTesting/controlFlowTesting.csv", numLinesToSkip = 1)
     public void testCFGTesting(double testId, String entryTestRes, double gpa, String expected) {
+        assertEquals(expected, CVScreening.screenCV(gpa, entryTestRes));
+    }
+
+    /*
+     * Testcase dòng dữ liệu
+     */
+    @ParameterizedTest
+    @CsvFileSource(resources = "/dataFlowTesting/dataFlowTesting.csv", numLinesToSkip = 1)
+    public void testDataFlowTesting(double testId, String entryTestRes, double gpa, String expected) {
         assertEquals(expected, CVScreening.screenCV(gpa, entryTestRes));
     }
 }

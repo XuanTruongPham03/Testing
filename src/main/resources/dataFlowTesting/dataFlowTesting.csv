@@ -1,0 +1,6 @@
+testID,entryTestRes,gpa,Đầu ra mong muốn
+1,fail,5.0,invalid input
+2,fail,2.0,reject
+3,fail,3.2,reject
+4,abc,1.0,invalid input
+5,fail,3.6,phase 1
