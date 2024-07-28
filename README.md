@@ -52,8 +52,10 @@ Dựa trên giá trị của GPA và kết quả bài kiểm tra đầu vào, ch
 │       ├── blackBoxTesting
 │       │   ├── boundaryTesting.csv
 │       │   └── decisionTableTesting.csv
-│       └── CFGTesting
-│           └── CFGTesting.csv
+│       ├── controlFlowTesting
+│       │   └── controlFlowTesting.csv
+│       └── dataFlowTesting
+│           └── dataFlowTesting.csv
 └── test
     └── java
         └── CVScreenTesting.java
